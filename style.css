@@ -1,0 +1,273 @@
+.navbar{
+    background: rgba(41, 188, 246, 0.397);
+}
+header .navbar-nav
+{
+    color: #ffff;
+    padding: 1rem 4rem 1rem 4rem;
+}
+header .navbar-brand{
+    padding-left: 2rem;
+    color: #ffff;
+}
+.nav-item{    
+    padding-left: 2rem;
+}
+.nav-link{
+    color: #ffff;
+}
+.nav-link:hover{
+    color: blue;
+}
+.nav-link i{
+    padding-left: 20px;
+}
+.download-button{
+    margin-right: 1.5rem;
+    text-align: center;
+    padding:10px 2rem;
+    border-radius: 8px;
+    color: black;
+    background: yellow;
+}
+.hero-slider .caption{
+padding-top: 12rem;
+padding-left: 4rem;
+padding-bottom: 6rem;
+color: #ffff;
+}
+.caption h1{
+    font-size: 5rem;
+}
+.caption .btn-main{
+    border: none;
+    background: black;
+    color: #ffff;
+    margin-top: 1rem;
+    padding: 5px 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+.slider-item{
+    height: auto;
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.aboutus{
+    padding: 4rem 2rem;
+}
+.image-top img{  
+    display: inline-block;
+    width:18rem ;
+    border-radius: 10px;
+}
+.left-img{
+    margin-left: 2rem; 
+    margin-top: 5rem;       
+}
+.image-btm img{
+    width:18rem ;
+    border-radius: 10px;
+}
+.image-btm {
+    display: inline-flex;
+    padding-top: 2rem;
+}
+.blank-image{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    height: 5rem;
+    width: 5rem;    
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.about{   
+    padding-top: 5rem; 
+    padding-left: 2rem; 
+}
+.about h2{
+    padding: 1.5rem 0;
+    color: rgb(65, 185, 241);
+}
+.cards{
+    margin: 2rem 18rem;
+}
+.card img{    
+   height: 13rem;
+}
+.vision {   
+    border: none;
+    border-radius: 10px !important;
+    text-align: center;
+}
+.card-body{
+    padding: 1.5rem 1rem;
+}
+.card-title{
+    font-size: 1.8rem;
+    color: rgb(65, 185, 241);
+}
+.card-body p{
+    font-size: 0.9rem;
+}
+.values{    
+    padding: 4rem 6rem;
+    padding-bottom: 8rem;
+}
+.values h4{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.values .card{
+    border-radius: 10px;
+    border: none;    
+}
+.values .card-text{
+    font-size: 1rem;
+    text-align: center;
+}
+/* .blank{
+    
+    position: relative;
+    top: -16rem;
+    width: 100%;
+    height: 7rem;
+    background: lightgrey;
+} */
+
+
+
+/* section2 */
+.back-image img{
+    background: #ffff;
+    width: 30%;
+    height: 35rem;
+    opacity: 0.7;
+}
+.overly-section{
+    position: relative;
+      top: -32rem;
+}
+.gallery img{
+  width: 30rem;
+  height: 28rem;
+  margin-left: 3rem;
+}
+.image-icon{   
+    background: #ffff; 
+    padding-top: 2rem;
+    /* padding-bottom: 2rem; */
+    padding-left: 3rem;
+}
+.icons-top{
+    display: flex;
+    padding-left: 4rem;
+}
+.icons-bottom{
+    display: flex;
+    padding-left: 4rem;
+    padding-top: 1rem;
+}
+.icon{
+    padding-left: 4rem;
+    text-align: center    
+}
+.icon i{
+    font-size: 4rem;
+    color: rgb(65, 185, 241);
+}
+.icon h2{
+    color: rgb(65, 185, 241);
+    font-size: 2rem;
+}
+.icon h3{
+   font-size: 1rem;
+}
+/* section3 */
+.section3{
+    padding: 3rem;
+    background: #ffff;
+}
+.brands{
+    text-align: center;
+    display: flex;   
+}
+.brand{
+    padding: 2rem;
+}
+/* section4 */
+.section4{
+    padding: 2rem 4rem;
+}
+.section4 img{
+    width: 25rem;
+    height: 35rem;
+
+}
+.template{
+    padding-top: 25rem;
+}
+.template button{
+    display: inline-flex;
+    padding: 10px 3rem;
+}
+.template img{
+    width: 45px;
+    height: 45px;
+}
+
+
+/* media queries */
+@media (min-width:1200px){
+    .cards{
+        margin: 2rem 15rem;
+    }
+} 
+@media (max-width:1200px){
+    .cards{
+        margin: 2rem 10rem;
+    }
+    .values{    
+        padding: 4rem 3rem;       
+    }
+    
+} 
+@media (max-width:992px){
+    .cards{
+        margin: 2rem 8rem;
+    }
+    .values{    
+        padding: 4rem 0;       
+    }    
+} 
+@media (max-width:767px){
+    .cards{
+        margin: 2rem 8rem;       
+    }
+    .vision {   
+        margin-top: 2rem;
+        border: none;
+        border-radius: 10px !important;
+        text-align: center;
+    }   
+    .template{
+        padding-top: 8rem;
+        padding-left: 5rem;
+    }
+} 
+/* @media  (min-width:768px){
+    .cards{
+        margin: 2rem 7rem;       
+    }  
+    .vision {   
+        margin-top: 2rem;
+        border: none;
+        border-radius: 10px !important;
+        text-align: center;
+    }
+} */
