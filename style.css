@@ -1,5 +1,5 @@
 .navbar{
-    background: rgba(41, 188, 246, 0.397);
+    background: rgba(41, 179, 233, 0.664) ;
 }
 header .navbar-nav
 {
@@ -11,7 +11,7 @@ header .navbar-brand{
     color: #ffff;
 }
 .nav-item{    
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 .nav-link{
     color: #ffff;
@@ -20,12 +20,12 @@ header .navbar-brand{
     color: blue;
 }
 .nav-link i{
-    padding-left: 20px;
+    padding-left: 1rem;
 }
 .download-button{
     margin-right: 1.5rem;
     text-align: center;
-    padding:10px 2rem;
+    padding:.5em 2rem;
     border-radius: 8px;
     color: black;
     background: yellow;
@@ -56,64 +56,63 @@ color: #ffff;
     min-height: 350px;
     background-size: cover;
     background-repeat: no-repeat;
+  
 }
 .aboutus{
-    padding: 4rem 2rem;
+    padding: 2rem;
 }
-.image-top img{  
-    display: inline-block;
-    width:18rem ;
+.images img{
+    width: 18rem;
     border-radius: 10px;
 }
-.left-img{
-    margin-left: 2rem; 
-    margin-top: 5rem;       
+.image-top{    
+    padding: 1rem;
 }
-.image-btm img{
-    width:18rem ;
-    border-radius: 10px;
-}
-.image-btm {
-    display: inline-flex;
-    padding-top: 2rem;
+.image-btm{ 
+    display: inline-flex;  
+    padding: 1rem;
 }
 .blank-image{
-    margin-top: 2rem;
-    margin-left: 2rem;
+    position: relative;
+    top: 7rem;
+    left: 2rem;          
     height: 5rem;
     width: 5rem;    
     border: 1px solid black;
     border-radius: 10px;
 }
-.about{   
-    padding-top: 5rem; 
-    padding-left: 2rem; 
+.left-img{
+    position: relative;
+    left: 1rem;
+    top: 6rem;
 }
-.about h2{
-    padding: 1.5rem 0;
+.about{
+    padding-top: 7rem;
+    margin-left: 0;
+}
+.about h2{   
     color: rgb(65, 185, 241);
 }
-.cards{
-    margin: 2rem 18rem;
-}
-.card img{    
-   height: 13rem;
-}
-.vision {   
+.cards .vision{
+    margin-left: 17rem;
+    align-items: right;
     border: none;
-    border-radius: 10px !important;
-    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #dadada;
+    color: rgb(65, 185, 241);
 }
-.card-body{
+.vision .card-body{
     padding: 1.5rem 1rem;
 }
-.card-title{
-    font-size: 1.8rem;
+.cards .mision{
+    margin-right: 17rem;
+    align-items: right;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #dadada;
     color: rgb(65, 185, 241);
 }
-.card-body p{
-    font-size: 0.9rem;
-}
+
 .values{    
     padding: 4rem 6rem;
     padding-bottom: 8rem;
@@ -144,8 +143,10 @@ color: #ffff;
 
 /* section2 */
 .back-image img{
+    background-repeat: no-repeat;
+    background-size: cover;
     background: #ffff;
-    width: 30%;
+    width: 40%;
     height: 35rem;
     opacity: 0.7;
 }
@@ -154,15 +155,14 @@ color: #ffff;
       top: -32rem;
 }
 .gallery img{
-  width: 30rem;
+  width: 100%;
   height: 28rem;
-  margin-left: 3rem;
+  margin-left: 5rem;
 }
-.image-icon{   
+.image-icon{      
     background: #ffff; 
-    padding-top: 2rem;
-    /* padding-bottom: 2rem; */
-    padding-left: 3rem;
+    padding-top: 2rem;   
+  text-align: center;
 }
 .icons-top{
     display: flex;
@@ -216,19 +216,228 @@ color: #ffff;
     display: inline-flex;
     padding: 10px 3rem;
 }
+.template button img{
+   padding-right: 1em;
+}
 .template img{
     width: 45px;
     height: 45px;
 }
 
+/* media qureyy */
+/* @media (min-width:320px) and (max-width:484px){
+    
+} */
+
+
+
+
+
+
+
+
+/* ========================media queries    =================== */
+/* @media (min-width: 576px) { 
+    .hero-slider .caption{
+        padding-top: 8rem;
+        padding-left: 2rem;
+        padding-bottom: 4rem;
+        color: #ffff;
+        }
+        .caption h1{
+            font-size: 3rem;
+        }
+        .aboutus{
+            text-align: center;           
+        }
+        .images img{
+            padding-top: 1rem;
+            width: 18rem;
+            border-radius: 10px;
+        }       
+        .image-btm{ 
+            text-align: center;
+            display: block;  
+            padding: 1rem;
+        }
+        .blank-image{
+            display: none;           
+        }
+        .left-img{
+            position: static;
+           
+        }
+        .about{
+            padding-top: 1rem;
+            text-align: center;           
+        }
+        .about h2{   
+            color: rgb(65, 185, 241);
+        }
+        .about p{
+            text-align: center;
+            padding-right: 2rem;
+        }
+        .cards .vision{
+            margin-top: 1rem;
+            margin-left: 4rem;
+            text-align: center;
+            color: rgb(65, 185, 241);
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #dadada;
+        }       
+        .cards .mision{
+            margin-top: 3rem;
+            margin-left: 4rem;
+            text-align: center;
+            color: rgb(65, 185, 241);
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #dadada;
+        }
+        .values{    
+            padding: 2rem 8rem;
+            padding-bottom: 4rem;
+        }
+        .values h4{
+            text-align: center;
+            font-size: 1.8rem;
+            padding-bottom: 1rem;
+        }
+        .values .card{                     
+            text-align: center;
+            border-radius: 10px;
+            border: none;   
+            margin: 1rem; 
+        }
+        .values .card-text{
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .back-image img{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background: #ffff;
+            width: 100%;
+            height: 25rem;
+            opacity: 1;
+        }
+        .overly-section{
+            position: static;            
+        }
+        .gallery img{
+         display: none;
+        }
+        .image-icon{      
+            background: #ffff; 
+            display: inline-block;
+            padding-left: 0;           
+            text-align: center;
+        }
+        .icons-top{
+            text-align: center;            
+        }
+        .icons-bottom{
+            text-align: center;           
+            padding-top: 1rem;
+        }
+        .icon{            
+            text-align: center    
+        }
+        .icon i{
+            font-size: 3rem;
+            color: rgb(65, 185, 241);
+        }
+        .icon h2{
+            color: rgb(65, 185, 241);
+            font-size: 1.8rem;
+        }
+        .icon h3{
+           font-size: 1rem;
+        }
+        .section3{           
+            background: #ffff;
+        }
+        .brands{
+            text-align: center;
+            display: flex;   
+        }
+        .brand{
+            text-align: center;
+            padding: 2rem;
+        } */
+        /* section4 */
+/* .section4{
+    padding: 2rem 4rem;
+}
+.section4 img{
+    width: 90%;
+    height: 35rem;
+    text-align: center;
+
+}
+.template{
+    text-align: center;
+    padding-top: 2rem;
+}
+.template button{
+    text-align: center;
+    display: inline-flex;
+    padding: 10px 3rem;
+}
+.template button img{
+    padding-right: 1em;
+ }
+.template img{
+    
+    width: 45px;
+    height: 45px;
+}
+ } */
+
+
+ /*=================== media screen min 768px=============== */
+ /* @media (min-width: 768px) {
+    .hero-slider .caption{
+        padding-top: 6rem;
+        padding-left: 4rem;
+        padding-bottom: 4rem;
+        color: #ffff;
+        }
+        .caption h1{
+            font-size: 3.5rem;
+        }
+        .caption .btn-main{
+          
+            margin-top: 1rem;
+            padding: 3px 18px;
+            border-radius: 8px;
+            text-align: center;
+            margin-left: 8px;
+        
+        }        
+       
+  } */
+
+
 
 /* media queries */
-@media (min-width:1200px){
+/* @media (min-width:1200px){
     .cards{
         margin: 2rem 15rem;
     }
-} 
-@media (max-width:1200px){
+}  */
+/* @media (max-width:1200px){
+    .download-button{
+        font-size: 5vmin;
+        margin-right: 1rem;
+        text-align: center;
+        padding:1vmin 10vmin;
+        border-radius: 8px;
+        color: black;
+        background: yellow;
+    }
     .cards{
         margin: 2rem 10rem;
     }
@@ -259,7 +468,7 @@ color: #ffff;
         padding-top: 8rem;
         padding-left: 5rem;
     }
-} 
+}  */
 /* @media  (min-width:768px){
     .cards{
         margin: 2rem 7rem;       
